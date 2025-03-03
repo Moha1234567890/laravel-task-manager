@@ -49,17 +49,17 @@ The **Task Manager API** is a simple Laravel-based RESTful API that allows users
 ### Authentication
 | Method | Endpoint        | Description         |
 |--------|----------------|---------------------|
-| POST   | `/api/register` | Register a new user |
-| POST   | `/api/login`    | Login and get token |
-| POST   | `/api/logout`   | Logout user        |
+| POST   | `/api/v1/register` | Register a new user |
+| POST   | `/api/v1/login`    | Login and get token |
+| POST   | `/api/v1/logout`   | Logout user        |
 
 ### Tasks
 | Method | Endpoint            | Description                |
 |--------|----------------------|----------------------------|
-| GET    | `/api/tasks`         | List all tasks            |
-| POST   | `/api/store-task`         | Create a new task         |
-| PUT    | `/api/tasks/{task}`    | Update a specific task    |
-| DELETE | `/api/tasks/{id}`    | Delete a specific task    |
+| GET    | `/api/v1/tasks`         | List all tasks            |
+| POST   | `/api/v1/store-task`         | Create a new task         |
+| PUT    | `/api/v1/tasks/{task}`    | Update a specific task    |
+| DELETE | `/api/v1/tasks/{id}`    | Delete a specific task    |
 
 ---
 
